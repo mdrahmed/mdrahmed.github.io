@@ -11,6 +11,7 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
+  SiLlvm,
   SiRedis,
   SiFirebase,
   SiNextdotjs,
@@ -23,21 +24,39 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <a href="https://llvm.org/Logo.html" className="no-link-color" target="_blank">
+          <SiLlvm />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <a href="https://react-icons.github.io/react-icons/search/#q=google%20scholar" className="no-link-color" target="_blank">
+          <CgCPlusPlus />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.python.org/" className="no-link-color" target="_blank">
+          <DiPython />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.javascript.com/" className="no-link-color" target="_blank">
+          <DiJavascript1 />
+        </a>
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://nodejs.org/en" className="no-link-color" target="_blank">
+          <DiNodejs />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <a href="https://react.dev/" className="no-link-color" target="_blank">
+          <DiReact />
+        </a>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -57,12 +76,11 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <a href="https://www.java.com/en/" className="no-link-color" target="_blank">
+          <DiJava />
+        </a>
       </Col>
     </Row>
   );
