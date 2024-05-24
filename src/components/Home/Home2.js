@@ -21,9 +21,8 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something whenever possible, I
+              something whenever possible, I think… 🤷‍♂️
               <br />
-              think… 🤷‍♂️
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> Python, C++, and Javascript. </b>
@@ -41,7 +40,7 @@ function Home2() {
               <br />
               <br />
               I also apply my passion for developing products
-              with <b className="purple">LLVM</b> and
+              with <b className="purple">LLVM</b>, contributing to open-source projects at github and
               <i>
                 <b className="purple">
                   {" "}

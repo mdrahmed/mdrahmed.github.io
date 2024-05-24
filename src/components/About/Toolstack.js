@@ -18,22 +18,32 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNeovim />
+        <a href="https://neovim.io/" className="no-link-color" target="_blank">
+          <SiNeovim />
+        </a>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <FaUbuntu />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiTmux />
+        <a href="https://github.com/tmux/tmux/wiki" className="no-link-color" target="_blank">
+          <SiTmux />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <IoTerminal />
+        <a href="https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal" className="no-link-color" target="_blank">
+          <IoTerminal />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiVim />
+        <a href="https://www.vim.org/" className="no-link-color" target="_blank">
+          <DiVim />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <a href="https://code.visualstudio.com/" className="no-link-color" target="_blank">
+          <SiVisualstudiocode />
+        </a>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
