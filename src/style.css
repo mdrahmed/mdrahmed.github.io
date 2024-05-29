@@ -603,10 +603,13 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
-
+.react-pdf__Page {
+  margin-bottom: 50px;
+}
 .resume-section {
   position: relative !important;
   padding-top: 110px !important;
@@ -619,6 +622,25 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.d-flex.justify-content-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resume-left {
@@ -640,6 +662,7 @@ button:focus {
     padding-left: 15px !important;
   }
 }
+
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;

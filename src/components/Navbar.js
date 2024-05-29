@@ -82,10 +82,22 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* old resume */}
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item> */}
+
+            {/* New Resume Section */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/cv"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume

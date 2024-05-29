@@ -11,9 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Raihan </span>
             from <span className="purple"> Salt Lake City, Utah, USA</span>
             <br />
-            I am currently pursuing my doctorate at the University of Uttah
+            I am currently pursuing my doctorate at the <span className="purple">University of Utah</span> under supervision of <span className="purple">Dr. Mu Zhang.</span>
             <br />
-            I have completed MSc in Computer Science from University of Utah.
+            I have completed <span className="purple">MSc in Computer Science from University of Utah.</span>
             <br />
             <br />
             Apart from coding and reading research papers, some other activities that I love to do!

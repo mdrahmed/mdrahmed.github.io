@@ -23,6 +23,8 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
+              // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
