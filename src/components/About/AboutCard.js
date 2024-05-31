@@ -2,19 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
-function AboutCard() {
+function AboutCard() { 
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Raihan </span>
-            from <span className="purple"> Salt Lake City, Utah, USA</span>
-            <br />
-            I am currently pursuing my doctorate at the <span className="purple">University of Utah</span> under supervision of <span className="purple">Dr. Mu Zhang.</span>
-            <br />
-            I have completed <span className="purple">MSc in Computer Science from University of Utah.</span>
-            <br />
+            I fell in love with programming and I have at least learnt something whenever possible, I think… 🤷‍♂️.
             <br />
             Apart from coding and reading research papers, some other activities that I love to do!
           </p>

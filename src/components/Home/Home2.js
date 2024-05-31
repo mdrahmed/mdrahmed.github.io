@@ -19,15 +19,25 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+            
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something whenever possible, I think… 🤷‍♂️
+              Hi Everyone, I am <span className="purple"> Raihan </span>
+              from <span className="purple"> Salt Lake City, Utah, USA.</span>
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python, C++, and Javascript. </b>
-              </i>
+              I am currently pursuing my doctorate at the&nbsp;
+              <span className="purple">
+                <a href="https://www.utah.edu/" target="_blank" class="purple-link">University of Utah</a>
+              </span> under
+              <br/>
+              supervision of&nbsp;
+              <span className="purple">
+                <a href="https://sites.google.com/site/muzhang82/" target="_blank" class="purple-link">Dr. Mu Zhang</a>
+               </span>
               <br />
+              I have completed <span className="purple">MSc in Computer Science from University of Utah.</span>
+              <br />
+              {/* <br /> */}
+              
               <br />
               My field of Interest's are building new&nbsp;
               <i>
@@ -36,6 +46,13 @@ function Home2() {
                 <b className="purple">
                   web development.
                 </b>
+              </i>
+              <br />
+              <br />
+              
+              I am fluent in classics like
+              <i>
+                <b className="purple"> Python, C++, and Javascript. </b>
               </i>
               <br />
               <br />

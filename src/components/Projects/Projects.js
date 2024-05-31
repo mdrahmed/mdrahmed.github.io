@@ -33,7 +33,7 @@ function Projects() {
               // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
               imgPath={icstracker}
               // isBlog={false}
-              title="ICSTracker"
+              title="ICSTracker (Ph.D. 1st Proj)"
               description="Advanced Persistent Threat (APT) attacks are increasingly targeting modern factory floors, necessitating audit logging-based provenance analysis for safe recovery. To help solve this issue, I implemented ICSTracker, a physical process-aware, cross-iteration, and cross-domain approach to backtracking intrusions in Industrial Control Systems (ICS), using the LLVM compiler set, C++, and Python. ICSTracker automatically recovers the physical semantics of controller routines, reconstructs data dependencies, and associates controller operations with OS-level events, significantly outperforming previous techniques."
               ghLink="https://github.com/icstracker/icstracker"
               // demoLink="https://chatify-49.web.app/"
