@@ -39,7 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I also apply my passion for developing products
+              I also apply my passion for developing systems library
               with <b className="purple">LLVM</b>, contributing to open-source projects at github and
               <i>
                 <b className="purple">
@@ -49,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Node.js</b>
               </i>
             </p>
           </Col>
