@@ -53,7 +53,7 @@ function Cv() {  // Use an uppercase first letter for the component name
                         <Page
                             pageNumber={page}
                             renderTextLayer={false}
-                            renderAnnotationLayer={false}
+                            renderAnnotationLayer={true}
                             scale={width > 786 ? 1.5 : 0.6}
                         />
                         );
