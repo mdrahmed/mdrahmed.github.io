@@ -29,7 +29,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
                 <b className="purple">systems to provide security to ICS & CPS </b> and
                 also have a keen interest in {" "}
