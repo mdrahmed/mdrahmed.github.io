@@ -57,8 +57,7 @@ function Projects() {
               isBlog={false}
               title="Fuzzing XPDF‑4.05"
               description="This project focused on fuzzing XPDF using AFL++ to uncover software flaws and ensure security. After configuring xpdf-4.05 with AFL's Clang wrappers, afl-clang-fast and afl-clang-fast++, I embarked on a comprehensive fuzzing campaign to thoroughly test all components of the software. Then I embarked on the journey of subjecting xpdf to a barrage of mutated inputs in search of elusive vulnerabilities. While initial tests of XPDF version 4.05 showed no significant issues, further investigation revealed memory leakage problems compared to version 4.04."
-              ghLink="https://github.com/mdrahmed/afl--fuzzing101"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/mdrahmed/afl--fuzzing101"              
             />
           </Col>
 
@@ -84,17 +83,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
