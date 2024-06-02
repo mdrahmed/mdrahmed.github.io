@@ -77,6 +77,16 @@ function Home2() {
           </Col>
         </Row>
         <Row>
+          <Col md={8} className="home-about-description">
+              <h1 style={{ fontSize: "2.6em" }}>
+                Recent<span className="purple"> News! </span>
+              </h1>
+              <p className="home-about-body">
+                [March 2024] Our team 42-b3yond-6ug is awarded $1M towards DARPA AIxCC semi-final!  
+              </p>
+          </Col>
+        </Row>
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
