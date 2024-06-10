@@ -80,34 +80,11 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
                 Recent<span className="purple"> News! </span>
               </h1>
-              {/* <p className="home-about-body">
-                [March 2024] My paper published  
-                <br />
-                [Sept 2024] Got intern 
-              </p>
-              <button
-              disabled={isConfettiAnimating || isBalloonsAnimating}
-              onClick={() => {
-                confettiReward();
-                balloonsReward();
-              }}
-              style={{
-                background: "transparent",
-                border: "none",
-                cursor: "pointer",
-                fontSize: "1.5em",
-                marginTop: "1em"
-              }}
-              >
-                <span id="confettiReward" />
-                <span id="balloonsReward" />
-                🎉 Celebrate
-              </button> */}
               <p className="home-about-body">
                 <span
                   onMouseEnter={() => confettiReward()}
@@ -126,7 +103,7 @@ function Home2() {
                 <span id="balloonsReward" />
               </p>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
