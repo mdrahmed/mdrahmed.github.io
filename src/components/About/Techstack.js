@@ -29,7 +29,7 @@ function Techstack() {
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://react-icons.github.io/react-icons/search/#q=google%20scholar" className="no-link-color" target="_blank">
+        <a href="https://cplusplus.com/doc/tutorial/" className="no-link-color" target="_blank">
           <CgCPlusPlus />
         </a>
       </Col>
