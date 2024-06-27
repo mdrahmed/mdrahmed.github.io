@@ -118,7 +118,8 @@ function Research() {
                   <Col>
                     <strong className="purple">
                         <a href="https://link.springer.com/article/10.1186/s12859-021-04131-6" target="_blank" class="purple-link">
-                        Machine learning to reveal an astute risk predictive framework for Gynecologic Cancer and its impact on women psychology: Bangladeshi perspective
+                        {/* Full title: Machine learning to reveal an astute risk predictive framework for Gynecologic Cancer and its impact on women psychology: Bangladeshi perspective  */}
+                        Machine learning to reveal an astute risk predictive framework for Gynecologic Cancer and its impact on women psychology..
                         </a>
                     </strong>
                     <br />
