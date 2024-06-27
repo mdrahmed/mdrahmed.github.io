@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
 import { useReward } from 'react-rewards';
+import { MdMarkEmailRead } from "react-icons/md";
 
 function Home2() {
   const { reward: confettiReward, isAnimating: isConfettiAnimating } = useReward('confettiReward', 'confetti');
@@ -80,7 +81,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
                 Recent<span className="purple"> News! </span>
@@ -90,20 +91,22 @@ function Home2() {
                   onMouseEnter={() => confettiReward()}
                   style={{ cursor: 'pointer' }}
                 >
-                  🎉 [March 2024] My paper published  
+                  🎉&nbsp;&nbsp;&nbsp;
+                  <span className="purple">[May 2024]</span>&nbsp;&nbsp;
+                  Received <strong className="purple">MS in Computer Science</strong> from <span className="purple">University of Utah</span>
                 </span>
-                <br />
+                {/* <br />
                 <span
                   onMouseEnter={() => balloonsReward()}
                   style={{ cursor: 'pointer' }}
                 >
                   🎉 [Sept 2024] Got intern 
-                </span>
-                <span id="confettiReward" />
-                <span id="balloonsReward" />
+                </span> */}
+                {/* <span id="confettiReward" />
+                <span id="balloonsReward" /> */}
               </p>
           </Col>
-        </Row> */}
+        </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -111,6 +114,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto:u1374605@utah.edu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <MdMarkEmailRead />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/mdrahmed"

@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I fell in love with programming and I have at least learnt something whenever possible, I think… 🤷‍♂️.
+            I fell in love with <strong className="purple">programming</strong> and I have at least learnt something whenever possible, I think… 🤷‍♂️.
             <br />
             Apart from coding and reading research papers, some other activities that I love to do!
           </p>

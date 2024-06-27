@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
+import { MdMarkEmailRead } from "react-icons/md";
 
 function Footer() {
   let date = new Date();
@@ -22,6 +23,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            {/* <li className="social-icons">
+              <a
+                href="mailto:u1374605@utah.edu"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <MdMarkEmailRead />
+              </a>
+            </li> */}
+            <li className="social-icons">
+              <a
+                href="mailto:u1374605@utah.edu"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <MdMarkEmailRead />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/mdrahmed"
