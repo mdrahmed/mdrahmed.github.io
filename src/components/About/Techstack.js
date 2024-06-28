@@ -18,7 +18,13 @@ import {
   SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {
+  TbBrandGolang,
+  TbBrandCSharp
+} from "react-icons/tb";
+import { IoLogoAndroid } from "react-icons/io";
+import { AiOutlineDotNet } from "react-icons/ai";
+import { FaPhp } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -56,30 +62,39 @@ function Techstack() {
           <DiReact />
         </a>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <a href="https://www.android.com/" className="no-link-color" target="_blank">
+          <IoLogoAndroid />
+        </a>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <a href="https://www.java.com/en/" className="no-link-color" target="_blank">
           <DiJava />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://git-scm.com/" className="no-link-color" target="_blank">
+          <DiGit />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" className="no-link-color" target="_blank">
+          <AiOutlineDotNet />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://go.dev/" className="no-link-color" target="_blank">
+          <TbBrandGolang />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.php.net/" className="no-link-color" target="_blank">
+          <FaPhp />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" className="no-link-color" target="_blank">
+          <TbBrandCSharp />
         </a>
       </Col>
     </Row>

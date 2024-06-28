@@ -8,11 +8,15 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiNixos,
+  SiMetasploit,
+  SiBurpsuite,
+  SiWireshark
 } from "react-icons/si";
 import { FaUbuntu } from "react-icons/fa";
 import { IoTerminal } from "react-icons/io5";
 import { DiVim } from "react-icons/di";
-
+import { GrDocker } from "react-icons/gr";
 
 function Toolstack() {
   return (
@@ -45,12 +49,41 @@ function Toolstack() {
           <SiVisualstudiocode />
         </a>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.docker.com/" className="no-link-color" target="_blank">
+          <GrDocker />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://slack.com/" className="no-link-color" target="_blank">
+          <SiSlack />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://nixos.org/" className="no-link-color" target="_blank">
+          <SiNixos />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.metasploit.com/" className="no-link-color" target="_blank">
+          <SiMetasploit />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://portswigger.net/burp" className="no-link-color" target="_blank">
+          <SiBurpsuite />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.wireshark.org/" className="no-link-color" target="_blank">
+          <SiWireshark />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://ubuntu.com//" className="no-link-color" target="_blank">
+          <FaUbuntu />
+        </a>
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiMacos />
       </Col> */}
