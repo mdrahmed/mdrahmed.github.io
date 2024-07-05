@@ -66,7 +66,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  learning modern Javascript Library and Frameworks
+                  learning various security and penetration testing tools & techniques e.g., afl++, metasploit, also, like to explore  modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
