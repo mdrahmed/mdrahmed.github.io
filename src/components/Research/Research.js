@@ -28,7 +28,7 @@ function Research() {
             <h2>
               <span className="purple">Conference </span>Papers
             </h2>
-            <Row className="research-card">
+            {/* <Row className="research-card">
               <Col className="research-card-view">
                 <Row>
                   <Col md={1}>
@@ -52,7 +52,7 @@ function Research() {
                   </Col>
                 </Row>
               </Col>
-            </Row>
+            </Row> */}
             <Row className="research-card">
               <Col className="research-card-view">
                 <Row>
