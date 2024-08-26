@@ -42,8 +42,8 @@ function Research() {
                   </strong>
                   <br />
                   {/* <a href="https://mdrahmed.github.io/" target="_blank" class="purple-link"> */}
-                    Md Raihan Ahmed
-                  {/* </a>, */}
+                    {/* Md Raihan Ahmed */}
+                  {/* </a>, */}{/*
                   , Jainta Paul, Levi Li , Luis Garcia, Mu Zhang
                   <br />
                   ACM Conference on Computer and Communications Security
