@@ -53,6 +53,30 @@ function Research() {
                 </Row>
               </Col>
             </Row> */}
+
+            <Row className="research-card">
+              <Col className="research-card-view">
+                <Row>
+                  <Col md={1}>
+                    <strong>Oct 2024</strong>
+                  </Col>
+                  <Col>
+                    <strong className="purple">
+                        <a href="" target="_blank" class="purple-link">
+                        Context-Aware Intrusion Detection in Industrial Control Systems
+                        </a>
+                    </strong>
+                    <br />
+                    Md Raihan Ahmed, Mu Zhang
+                    <br />
+                    CCS-Re‑design Industrial Control Systems with Security (RICSS)
+                    {/* <br />
+                    7-9 February, 2019 */}
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+
             <Row className="research-card">
               <Col className="research-card-view">
                 <Row>
