@@ -46,7 +46,7 @@ function Home2() {
               <br />
               My field of Interest's are building new&nbsp;
               <i>
-                <b className="purple">systems to provide security to ICS & CPS </b> and
+                <b className="purple">systems to provide security to Industrial Control Systems(ICS) & Cyber-Physical Systems(CPS) </b> and
                 also have a keen interest in {" "}
                 <b className="purple">
                   web development.
