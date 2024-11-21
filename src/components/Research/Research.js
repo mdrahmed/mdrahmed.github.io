@@ -62,7 +62,7 @@ function Research() {
                   </Col>
                   <Col>
                     <strong className="purple">
-                        <a href="" target="_blank" class="purple-link">
+                        <a href="https://dl.acm.org/doi/10.1145/3689930.3695212" target="_blank" class="purple-link">
                         Context-Aware Intrusion Detection in Industrial Control Systems
                         </a>
                     </strong>
