@@ -72,7 +72,7 @@ function Cv() {  // Use an uppercase first letter for the component name
             </Button>
             </Row>
             <Row style={{ justifyContent: "center", position: "relative", paddingTop: "20px" }}>
-                <p>Here is my <strong class="purple"><a href="https://www.overleaf.com/read/gcbqqzbssvdp#99fbdd" target="_blank" class="purple-link">LaTex Resume template</a></strong></p>
+                <p>Here is my <strong class="purple"><a href="https://www.overleaf.com/read/gcbqqzbssvdp#99fbdd target="_blank" class="purple-link">LaTex Resume template</a></strong></p>
             </Row>
         </Container>
     </div>
