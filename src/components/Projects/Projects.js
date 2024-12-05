@@ -7,13 +7,13 @@ import Particle from "../Particle";
 // import editor from "../../Assets/Projects/codeEditor.png";
 // import chatify from "../../Assets/Projects/chatify.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
+import suicide from "../../Assets/Projects/suicide.png";
 
 
 import icstracker from "../../Assets/projects_site/icstracker.png";
 import games from "../../Assets/projects_site/games.png";
 import xpdf from "../../Assets/projects_site/xpdf.png";
 import RollBack from "../../Assets/projects_site/rollback.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
   return (
@@ -36,7 +36,7 @@ function Projects() {
               title="ICSTracker (Ph.D. 1st Proj)"
               description="Advanced Persistent Threat (APT) attacks are increasingly targeting modern factory floors, necessitating audit logging-based provenance analysis for safe recovery. To help solve this issue, I implemented ICSTracker, a physical process-aware, cross-iteration, and cross-domain approach to backtracking intrusions in Industrial Control Systems (ICS), using the LLVM compiler set, C++, and Python. ICSTracker automatically recovers the physical semantics of controller routines, reconstructs data dependencies, and associates controller operations with OS-level events, significantly outperforming previous techniques."
               ghLink="https://github.com/icstracker/icstracker"
-              // demoLink="https://chatify-49.web.app/"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Fuzzing XPDF‑4.05"
               description="This project focused on fuzzing XPDF using AFL++ to uncover software flaws and ensure security. After configuring xpdf-4.05 with AFL's Clang wrappers, afl-clang-fast and afl-clang-fast++, I embarked on a comprehensive fuzzing campaign to thoroughly test all components of the software. Then I embarked on the journey of subjecting xpdf to a barrage of mutated inputs in search of elusive vulnerabilities. While initial tests of XPDF version 4.05 showed no significant issues, further investigation revealed memory leakage problems compared to version 4.04."
-              ghLink="https://github.com/mdrahmed/afl--fuzzing101"              
+              ghLink="https://github.com/mdrahmed/afl--fuzzing101"
             />
           </Col>
 
@@ -79,7 +79,7 @@ function Projects() {
               title="Cancer Risk Prediction"
               description="This project developed a machine learning-based system in the form of an Android app to predict the risk levels of cervical and ovarian cancer associated with stress. Various models, including Logistic Regression and Random Forest, were used to analyze significant factors of cervical and ovarian cancer. The resulting algorithm, integrated into the Android app, aims to predict cancer risks and alleviate mental stress for women, particularly in low-income countries like Bangladesh."
               ghLink="https://github.com/mdrahmed/AndroidStudio-projects/tree/main/Deadly-Cancer-Prediction"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
