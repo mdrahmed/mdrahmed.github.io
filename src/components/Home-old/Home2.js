@@ -46,7 +46,7 @@ function Home2() {
               <br />
               My field of Interest's are building new&nbsp;
               <i>
-                <b className="purple">systems to provide security to Industrial Control Systems(ICS) & Cyber-Physical Systems(CPS) </b> and
+                <b className="purple">systems to provide security to ICS & CPS </b> and
                 also have a keen interest in {" "}
                 <b className="purple">
                   web development.
@@ -87,14 +87,6 @@ function Home2() {
                 Recent<span className="purple"> News! </span>
               </h1>
               <p className="home-about-body">
-                <span
-                  onMouseEnter={() => confettiReward()}
-                  style={{ cursor: 'pointer' }} >
-                  🎉&nbsp;&nbsp;&nbsp;
-                  <span className="purple">[Oct 2024]</span>&nbsp;&nbsp;
-                <strong className="purple">Context-Aware Intrusion Detection in Industrial Control Systems</strong> paper published in <span className="purple">CCS-RICSS'24</span>
-                </span>
-                <br /> 
                 <span
                   onMouseEnter={() => confettiReward()}
                   style={{ cursor: 'pointer' }}
