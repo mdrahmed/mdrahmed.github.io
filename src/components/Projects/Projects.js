@@ -9,11 +9,13 @@ import Particle from "../Particle";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
-
 import icstracker from "../../Assets/projects_site/icstracker.png";
 import games from "../../Assets/projects_site/games.png";
 import xpdf from "../../Assets/projects_site/xpdf.png";
 import RollBack from "../../Assets/projects_site/rollback.jpeg";
+import fake_news from "../../Assets/projects_site/fake_news.png";
+import whatsapp from "../../Assets/projects_site/whatsapp.png";
+
 
 function Projects() {
   return (
@@ -27,6 +29,33 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
+              // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
+              imgPath={fake_news}
+              // isBlog={false}
+              title="Fake News Prediction"
+              description="In this fake news detection project, I trained and tested four machine learning models through their pace: logistic regression, decision trees, gradient boosting and random forest classifier. The logistics stood performed well. Its performs better for binary data classification. Decision tree and random forest of the models performed well too. However, logistic regression excluded those 2 with better accuracy and fast training. Finally, all three models were able to predict news whether its real or fake based on content."
+              ghLink="https://github.com/mdrahmed/Fake_news_prediction"
+            // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
+              // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
+              imgPath={whatsapp}
+              // isBlog={false}
+              title="Whats App chat Analysis"
+              description=""
+              ghLink="https://github.com/mdrahmed/whatsapp_chat_analysis"
+            // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
