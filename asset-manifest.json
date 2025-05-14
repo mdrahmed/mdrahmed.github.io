@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.72336263.css",
-    "main.js": "/static/js/main.d428b6fe.js",
+    "main.js": "/static/js/main.e4e6308d.js",
     "static/js/453.375c3baa.chunk.js": "/static/js/453.375c3baa.chunk.js",
+    "static/media/fake_news.png": "/static/media/fake_news.cec2f2aa63bcf8d0dde7.png",
     "static/media/icstracker.png": "/static/media/icstracker.5f5ec57bf72361429f12.png",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/xpdf.png": "/static/media/xpdf.80805405f4a5ccf36db7.png",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.cd199b463c2ffab2f910.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/games.png": "/static/media/games.f40613da82557dfd803e.png",
-    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/cv.pdf": "/static/media/cv.a08459329f395cb1a4d4.pdf",
+    "static/media/cv.pdf": "/static/media/cv.0e9053b7610f0fc576bd.pdf",
+    "static/media/dog_cat.jpg": "/static/media/dog_cat.c704ad5a110e253c7ca6.jpg",
     "static/media/logo3.png": "/static/media/logo3.f8ad45b7c9c06113d3c6.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/rollback.jpeg": "/static/media/rollback.400968843b11302227b3.jpeg",
@@ -22,11 +20,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.72336263.css.map": "/static/css/main.72336263.css.map",
-    "main.d428b6fe.js.map": "/static/js/main.d428b6fe.js.map",
+    "main.e4e6308d.js.map": "/static/js/main.e4e6308d.js.map",
     "453.375c3baa.chunk.js.map": "/static/js/453.375c3baa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72336263.css",
-    "static/js/main.d428b6fe.js"
+    "static/js/main.e4e6308d.js"
   ]
 }
