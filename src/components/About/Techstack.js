@@ -17,6 +17,9 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiTensorflow,
+  SiPandas,
+  SiKeras
 } from "react-icons/si";
 import {
   TbBrandGolang,
@@ -25,10 +28,32 @@ import {
 import { IoLogoAndroid } from "react-icons/io";
 import { AiOutlineDotNet } from "react-icons/ai";
 import { FaPhp } from "react-icons/fa";
+import { GiArtificialIntelligence } from "react-icons/gi";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" className="no-link-color" target="_blank">
+          <GiArtificialIntelligence />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.tensorflow.org/tutorials" className="no-link-color" target="_blank">
+          <SiTensorflow />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://pandas.pydata.org/" className="no-link-color" target="_blank">
+          <SiPandas />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://keras.io/" className="no-link-color" target="_blank">
+          <SiKeras />
+        </a>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <a href="https://llvm.org/Logo.html" className="no-link-color" target="_blank">
           <SiLlvm />

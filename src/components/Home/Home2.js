@@ -71,7 +71,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Node.js</b>
+                <b className="purple">React.js and Node.js</b>
               </i>
             </p>
           </Col>
@@ -87,6 +87,15 @@ function Home2() {
                 Recent<span className="purple"> News! </span>
               </h1>
               <p className="home-about-body">
+              <span
+                  onMouseEnter={() => confettiReward()}
+                  style={{ cursor: 'pointer' }} >
+                  🎉&nbsp;&nbsp;&nbsp;
+                  <span className="purple">[Apr 2025]</span>&nbsp;&nbsp;
+                <strong className="purple">ICSTRACKER: Backtracking Intrusions in Modern Industrial Control Systems</strong> paper published in <span className="purple">DSN'25</span>
+                </span>
+                <br /> 
+
                 <span
                   onMouseEnter={() => confettiReward()}
                   style={{ cursor: 'pointer' }} >
@@ -95,6 +104,7 @@ function Home2() {
                 <strong className="purple">Context-Aware Intrusion Detection in Industrial Control Systems</strong> paper published in <span className="purple">CCS-RICSS'24</span>
                 </span>
                 <br /> 
+                
                 <span
                   onMouseEnter={() => confettiReward()}
                   style={{ cursor: 'pointer' }}

@@ -15,6 +15,7 @@ import xpdf from "../../Assets/projects_site/xpdf.png";
 import RollBack from "../../Assets/projects_site/rollback.jpeg";
 import fake_news from "../../Assets/projects_site/fake_news.png";
 import whatsapp from "../../Assets/projects_site/whatsapp.png";
+import dog_cat from "../../Assets/projects_site/dog_cat.jpg";
 
 
 function Projects() {
@@ -37,7 +38,7 @@ function Projects() {
               imgPath={fake_news}
               // isBlog={false}
               title="Fake News Prediction"
-              description="In this fake news detection project, I trained and tested four machine learning models through their pace: logistic regression, decision trees, gradient boosting and random forest classifier. The logistics stood performed well. Its performs better for binary data classification. Decision tree and random forest of the models performed well too. However, logistic regression excluded those 2 with better accuracy and fast training. Finally, all three models were able to predict news whether its real or fake based on content."
+              description="In this fake news detection project, I trained and tested four machine learning models through their pace: logistic regression, decision trees, gradient boosting and random forest classifier. The  gradient boosting performed well with prediction accuracy of 0.9985003749062734. The other models like decision tree, logistics regression and random forest has accuracy 0.9980004998750313, 0.9943753515405287 and 0.9907523119220195 respectively. Gradient boosting performed well because it is trained sequentially, with each new tree it corrects the errors of the previous ones. This allowed to capture complex patterns in the data more effectively than the other standalone models."
               ghLink="https://github.com/mdrahmed/Fake_news_prediction"
             // demoLink="https://chatify-49.web.app/"
             />
@@ -47,11 +48,11 @@ function Projects() {
             <ProjectCard
               // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
               // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
-              imgPath={whatsapp}
+              imgPath={dog_cat}
               // isBlog={false}
-              title="Whats App chat Analysis"
-              description=""
-              ghLink="https://github.com/mdrahmed/whatsapp_chat_analysis"
+              title="Dog vs Cat Image Classification"
+              description="In this project, I trained convolutional neural network(CNN) model to predict images of dog and cat. At first, I tried to train the CNN model with batch size 32 without rescaling the images. But it was lot of overfitting. So, I rescaled the images and I got better and filtered it with 64 and 128 batch size. I compiled it with binary_crossentropy for the loss function. Then I trained it with 10 epochs at first, but it was taking a long time. So, I reduced the epoch size to 3 and got accuracy from 70% to 80%. There was still a little bit of overfitting, but the margin of error was reducing over time with the cross-entropy. At last, it was able to accurately predict real-time images downloaded from google."
+              ghLink="https://github.com/mdrahmed/Dog_cat_image_classification/tree/main"
             // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -109,6 +110,19 @@ function Projects() {
               description="This project developed a machine learning-based system in the form of an Android app to predict the risk levels of cervical and ovarian cancer associated with stress. Various models, including Logistic Regression and Random Forest, were used to analyze significant factors of cervical and ovarian cancer. The resulting algorithm, integrated into the Android app, aims to predict cancer risks and alleviate mental stress for women, particularly in low-income countries like Bangladesh."
               ghLink="https://github.com/mdrahmed/AndroidStudio-projects/tree/main/Deadly-Cancer-Prediction"
             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // img like this can be created with virtual screen, check here: https://webcoursesbangkok.com/virtual-screen/
+              // or, use this template: https://mediamodifier.com/mockup/closeup-macbook-laptop-screen-mockup-generator/1175
+              imgPath={whatsapp}
+              // isBlog={false}
+              title="Whats App chat Analysis"
+              description="In this project, I looked at WhatsApp real-time chat data and showed how users interact in a group chat. I used a group chat where users talked about playing soccer. I went through the exported chat logs and found important correlations like how often messages regarding the game were sent and when people were most active, and how much each person took part. I used Python tools like Pandas and Matplotlib to make graphs showing these trends. The graphs showed how chat activity changed over the months and hours. Looking at each month, I saw that messaging hit high points mostly during 4-6pm. These findings can help us understand things like who leads the conversations, how people react, and how group activity changes with the seasons."
+              ghLink="https://github.com/mdrahmed/whatsapp_chat_analysis"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 

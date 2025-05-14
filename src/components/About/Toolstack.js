@@ -11,7 +11,8 @@ import {
   SiNixos,
   SiMetasploit,
   SiBurpsuite,
-  SiWireshark
+  SiWireshark,
+  SiGooglecolab
 } from "react-icons/si";
 import { FaUbuntu } from "react-icons/fa";
 import { IoTerminal } from "react-icons/io5";
@@ -21,6 +22,11 @@ import { GrDocker } from "react-icons/gr";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://colab.research.google.com/" className="no-link-color" target="_blank">
+          <SiGooglecolab />
+        </a>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <a href="https://neovim.io/" className="no-link-color" target="_blank">
           <SiNeovim />

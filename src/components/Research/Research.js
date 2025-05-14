@@ -54,6 +54,30 @@ function Research() {
               </Col>
             </Row> */}
 
+          
+            <Row className="research-card">
+              <Col className="research-card-view">
+                <Row>
+                  <Col md={1}>
+                    <strong>Oct 2024</strong>
+                  </Col>
+                  <Col>
+                    <strong className="purple">
+                        <a href="https://dsn2025.github.io/cpaccepted.html" target="_blank" class="purple-link">
+                        ICSTRACKER: Backtracking Intrusions in Modern Industrial Control Systems
+                        </a>
+                    </strong>
+                    <br />
+                    Md Raihan Ahmed, Jainta Paul, Levi Taiji Li, Luis Garcia, Mu Zhang
+                    <br />
+                    IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+                    {/* <br />
+                    7-9 February, 2019 */}
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+
             <Row className="research-card">
               <Col className="research-card-view">
                 <Row>
