@@ -87,7 +87,16 @@ function Home2() {
                 Recent<span className="purple"> News! </span>
               </h1>
               <p className="home-about-body">
-              <span
+                <span
+                  onMouseEnter={() => confettiReward()}
+                  style={{ cursor: 'pointer' }} >
+                  🎉&nbsp;&nbsp;&nbsp;
+                  <span className="purple">[May 2025 - Aug 2025]</span>&nbsp;&nbsp;
+                <strong className="purple">Software Engineer Intern @ Meta</strong> <span className="purple"></span>
+                </span>
+                <br /> 
+
+                <span
                   onMouseEnter={() => confettiReward()}
                   style={{ cursor: 'pointer' }} >
                   🎉&nbsp;&nbsp;&nbsp;

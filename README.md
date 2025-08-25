@@ -72,3 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### To avoid 404 while going back to previous page
 
 Followed this to avoid 404 - [https://stackoverflow.com/a/69744845](https://stackoverflow.com/a/69744845)
+
+### To Deploy run
+```
+npm run deploy
+```
