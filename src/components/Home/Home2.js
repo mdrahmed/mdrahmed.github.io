@@ -163,17 +163,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/MRA20014771"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/md-raihan-ahmed-6b0a64253/"
+                  href="https://www.linkedin.com/in/mdrahmed/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -189,6 +179,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <FaGoogleScholar />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://x.com/MRA20014771"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
                 </a>
               </li>
             </ul>

@@ -55,17 +55,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://x.com/MRA20014771"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/md-raihan-ahmed-6b0a64253/"
+                href="https://www.linkedin.com/in/mdrahmed/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -81,6 +71,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaGoogleScholar />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://x.com/MRA20014771"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
           </ul>
