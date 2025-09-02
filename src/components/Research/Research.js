@@ -63,7 +63,7 @@ function Research() {
                   </Col>
                   <Col>
                     <strong className="purple">
-                        <a href="https://dsn2025.github.io/cpaccepted.html" target="_blank" class="purple-link">
+                        <a href="https://ieeexplore.ieee.org/document/11068828" target="_blank" class="purple-link">
                         ICSTRACKER: Backtracking Intrusions in Modern Industrial Control Systems
                         </a>
                     </strong>
