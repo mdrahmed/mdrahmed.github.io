@@ -206,7 +206,7 @@ function Research() {
                   </Col>
                   <Col>
                     <strong className="purple">
-                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S2452014421001916" target="_blank" class="purple-link">
+                        <a href="https://link.springer.com/article/10.1007/s42485-020-00054-7" target="_blank" class="purple-link">
                         Protein interaction network and drug design of stomach cancer and associated disease: a bioinformatics approach
                         </a>
                     </strong>
