@@ -120,7 +120,7 @@ function Home2() {
                 >
                   🎉&nbsp;&nbsp;&nbsp;
                   <span className="purple">[May 2024]</span>&nbsp;&nbsp;
-                  Received <strong className="purple">MS in Computer Science</strong> from <span className="purple">University of Utah</span>
+                  Received <strong className="purple">Milestone MS in Computer Science</strong> from <span className="purple">University of Utah</span>
                 </span>
                 {/* <br />
                 <span
