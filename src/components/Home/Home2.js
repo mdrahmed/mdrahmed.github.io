@@ -24,7 +24,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            
+
             <p className="home-about-body">
               Hi Everyone, I am <span className="purple"> Raihan </span>
               from <span className="purple"> Salt Lake City, Utah, USA.</span>
@@ -33,16 +33,16 @@ function Home2() {
               <span className="purple">
                 <a href="https://www.utah.edu/" target="_blank" class="purple-link">University of Utah</a>
               </span> under
-              <br/>
+              <br />
               supervision of&nbsp;
               <span className="purple">
                 <a href="https://sites.google.com/site/muzhang82/" target="_blank" class="purple-link">Dr. Mu Zhang</a>
-               </span>
+              </span>
               <br />
               I have completed <span className="purple">MSc in Computer Science from University of Utah.</span>
               <br />
               {/* <br /> */}
-              
+
               <br />
               My field of Interest's are building new&nbsp;
               <i>
@@ -54,7 +54,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              
+
               I am fluent in classics like
               <i>
                 <b className="purple"> Python, C++, and Javascript. </b>
@@ -83,55 +83,64 @@ function Home2() {
         </Row>
         <Row>
           <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
-                Recent<span className="purple"> News! </span>
-              </h1>
-              <p className="home-about-body">
-                <span
-                  onMouseEnter={() => confettiReward()}
-                  style={{ cursor: 'pointer' }} >
-                  🎉&nbsp;&nbsp;&nbsp;
-                  <span className="purple">[May 2025 - Aug 2025]</span>&nbsp;&nbsp;
-                <strong className="purple">Software Engineer Intern @ Meta</strong> <span className="purple"></span>
-                </span>
-                <br /> 
+            <h1 style={{ fontSize: "2.6em" }}>
+              Recent<span className="purple"> News! </span>
+            </h1>
+            <p className="home-about-body">
+              <span
+                onMouseEnter={() => confettiReward()}
+                style={{ cursor: 'pointer' }} >
+                🎉&nbsp;&nbsp;&nbsp;
+                <span className="purple">[Apr 2026]</span>&nbsp;&nbsp;
+                Reported 7 different types of bugs in Mozilla (including 7 subdomains), Invision Community (2 subdomains) <strong className="purple">[Confirmed]</strong> & Dynatrace.
+              </span>
+              <br />
 
-                <span
-                  onMouseEnter={() => confettiReward()}
-                  style={{ cursor: 'pointer' }} >
-                  🎉&nbsp;&nbsp;&nbsp;
-                  <span className="purple">[Apr 2025]</span>&nbsp;&nbsp;
+              <span
+                onMouseEnter={() => confettiReward()}
+                style={{ cursor: 'pointer' }} >
+                🎉&nbsp;&nbsp;&nbsp;
+                <span className="purple">[May 2025 - Aug 2025]</span>&nbsp;&nbsp;
+                <strong className="purple">Software Engineer Intern @ Meta</strong>
+              </span>
+              <br />
+
+              <span
+                onMouseEnter={() => confettiReward()}
+                style={{ cursor: 'pointer' }} >
+                🎉&nbsp;&nbsp;&nbsp;
+                <span className="purple">[Apr 2025]</span>&nbsp;&nbsp;
                 <strong className="purple">ICSTRACKER: Backtracking Intrusions in Modern Industrial Control Systems</strong> paper published in <span className="purple">DSN'25</span>
-                </span>
-                <br /> 
+              </span>
+              <br />
 
-                <span
-                  onMouseEnter={() => confettiReward()}
-                  style={{ cursor: 'pointer' }} >
-                  🎉&nbsp;&nbsp;&nbsp;
-                  <span className="purple">[Oct 2024]</span>&nbsp;&nbsp;
+              <span
+                onMouseEnter={() => confettiReward()}
+                style={{ cursor: 'pointer' }} >
+                🎉&nbsp;&nbsp;&nbsp;
+                <span className="purple">[Oct 2024]</span>&nbsp;&nbsp;
                 <strong className="purple">Context-Aware Intrusion Detection in Industrial Control Systems</strong> paper published in <span className="purple">CCS-RICSS'24</span>
-                </span>
-                <br /> 
-                
-                <span
-                  onMouseEnter={() => confettiReward()}
-                  style={{ cursor: 'pointer' }}
-                >
-                  🎉&nbsp;&nbsp;&nbsp;
-                  <span className="purple">[May 2024]</span>&nbsp;&nbsp;
-                  Received <strong className="purple">Milestone MS in Computer Science</strong> from <span className="purple">University of Utah</span>
-                </span>
-                {/* <br />
+              </span>
+              <br />
+
+              <span
+                onMouseEnter={() => confettiReward()}
+                style={{ cursor: 'pointer' }}
+              >
+                🎉&nbsp;&nbsp;&nbsp;
+                <span className="purple">[May 2024]</span>&nbsp;&nbsp;
+                Received <strong className="purple">Milestone MS in Computer Science</strong> from <span className="purple">University of Utah</span>
+              </span>
+              {/* <br />
                 <span
                   onMouseEnter={() => balloonsReward()}
                   style={{ cursor: 'pointer' }}
                 >
                   🎉 [Sept 2024] Got intern 
                 </span> */}
-                {/* <span id="confettiReward" />
+              {/* <span id="confettiReward" />
                 <span id="balloonsReward" /> */}
-              </p>
+            </p>
           </Col>
         </Row>
         <Row>
